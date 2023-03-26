@@ -655,26 +655,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 92px;
-    width: 170px;
-    border-radius: 4px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .social-link-customer:hover {
-    height: 92px;
+  .social-link-customer svg {
+    box-sizing: border-box;
     width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    border-style: none;
+    padding: 16px 32px;
+  }
+
+  .customer-card:hover {
     border-radius: 4px;
     fill: solid#2196f3;
   }
 
-  .customer-card a svg:hover {
-    height: 92px;
-    width: 170px;
-    border-radius: 4px;
-    fill: solid#2196f3;
-  }
 
 .social-link, .social-link-icon-2 {
     display: flex;
